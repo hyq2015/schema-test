@@ -3,7 +3,7 @@
     "schematics": {
         "account-overview": {
             "description": "create account overview.",
-            "factory": "./account-overview/index",
+            "factory": "./account-overview/index#main",
             "schema": "./account-overview/schema.json",
             "aliases": ["ac"]
         }
