@@ -3,7 +3,7 @@
     "schematics": {
         "account-overview": {
             "description": "A blank schematic.",
-            "factory": "./account-overview/index#testone",
+            "factory": "./account-overview/index#main",
             "schema": "./account-overview/schema.json"
         }
     }
