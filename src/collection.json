@@ -2,9 +2,10 @@
     "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
     "schematics": {
         "account-overview": {
-            "description": "A blank schematic.",
-            "factory": "./account-overview/index#main",
-            "schema": "./account-overview/schema.json"
+            "description": "create account overview.",
+            "factory": "./account-overview/index",
+            "schema": "./account-overview/schema.json",
+            "aliases": ["ac"]
         }
     }
 }
